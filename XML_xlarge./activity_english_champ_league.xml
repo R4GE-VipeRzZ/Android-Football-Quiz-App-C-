@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/grass_background_xlarge">
+
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="10dp"
+      tools:context="dont_have_domain.football_logo_quiz.arsenal_badge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <LinearLayout
+          android:layout_width="186dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBarnsley"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_barnsley" />
+
+
+        <Button
+            android:id="@+id/btnBlackburn"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_blackburn"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnWestbrom"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_westbrom"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnBirmingham"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_birmingham" />
+
+
+        <Button
+            android:id="@+id/btnSwansea"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_swansea"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnMillwall"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_millwall"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+      </LinearLayout>
+
+
+
+
+
+      <LinearLayout
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:layout_width="186dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnShefwednesday"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_shefwednesday"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnPreston"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_preston"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnReading"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_reading" />
+
+
+        <Button
+            android:id="@+id/btnNottsforest"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_nottsforest"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnQpr"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_qpr"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnStoke"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_stoke"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+      </LinearLayout>
+
+
+
+
+
+      <LinearLayout
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:layout_width="186dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnHull"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_hull"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnLuton"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="12dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_luton" />
+
+
+        <Button
+            android:id="@+id/btnHuddersfield"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_huddersfield"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnLeeds"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_leeds"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnMiddlesbrough"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_middlesbrough" />
+
+
+        <Button
+            android:id="@+id/btnBrentford"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="12dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_brentford" />
+      </LinearLayout>
+
+
+
+
+
+      <LinearLayout
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:layout_width="186dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCharlton"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_charlton" />
+
+
+        <Button
+            android:id="@+id/btnFullham"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_fullham"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnCardiff"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_cardiff"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnDerby"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="26dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_xlarge_derby" />
+
+
+        <Button
+            android:id="@+id/btnBristol"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_bristol"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnWigan"
+            android:layout_width="181dp"
+            android:layout_height="181dp"
+            android:background="@drawable/custom_button_xlarge_wigan"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+      </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBarnsley"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="143dp"
+        android:layout_marginLeft="134dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectShefwednesday"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="143dp"
+        android:layout_marginLeft="319dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectHull"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="143dp"
+        android:layout_marginLeft="506dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectCharlton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="143dp"
+        android:layout_marginLeft="692dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBlackburn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="341dp"
+        android:layout_marginLeft="134dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectPreston"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="341dp"
+        android:layout_marginLeft="319dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectLuton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="341dp"
+        android:layout_marginLeft="506dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectFullham"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="341dp"
+        android:layout_marginLeft="692dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectWestbrom"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="134dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectReading"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="319dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectHuddersfield"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="506dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectCardiff"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="692dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBirmingham"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="745dp"
+        android:layout_marginLeft="134dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectNottsforest"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="745dp"
+        android:layout_marginLeft="319dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectLeeds"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="745dp"
+        android:layout_marginLeft="506dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectDerby"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="745dp"
+        android:layout_marginLeft="692dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectSwansea"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="947dp"
+        android:layout_marginLeft="134dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectQpr"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="947dp"
+        android:layout_marginLeft="319dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectMiddlesbrough"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="947dp"
+        android:layout_marginLeft="506dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBristol"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="947dp"
+        android:layout_marginLeft="692dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectMillwall"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="1149dp"
+        android:layout_marginLeft="134dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectStoke"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="1149dp"
+        android:layout_marginLeft="319dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBrentford"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="1149dp"
+        android:layout_marginLeft="506dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectWigan"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        app:srcCompat="@mipmap/xlarge_correct_tick"
+        android:layout_marginTop="1149dp"
+        android:layout_marginLeft="692dp"/>
+  </RelativeLayout>
+</ScrollView>
