@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/grass_background_small">
+
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context="dont_have_domain.football_logo_quiz.arsenal_badge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <LinearLayout
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnArsenal"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_small_arsenal" />
+
+
+        <Button
+            android:id="@+id/btnBournemouth"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_bournemouth"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnBrighton"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_brighton"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnBurnley"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_small_burnley" />
+
+
+        <Button
+            android:id="@+id/btnChelsea"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_chelsea"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnCrystalpalace"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_crystalpalace"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnEverton"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_small_everton" />
+
+
+        <Button
+            android:id="@+id/btnShefunited"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_shefunited"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnWestham"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_westham"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnLiverpool"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_small_liverpool" />
+      </LinearLayout>
+
+
+
+
+
+      <LinearLayout
+          android:layout_width="160dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:layout_marginBottom="5dp"
+          android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnMancity"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_mancity"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnManunited"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_small_manunited" />
+
+
+        <Button
+            android:id="@+id/btnNewcastle"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_newcastle"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnSouthampton"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_southampton"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnAstonvilla"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_small_astonvilla" />
+
+
+        <Button
+            android:id="@+id/btnNorwich"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_norwich"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnSpurs"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_spurs"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnWatford"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@null"
+            android:background="@drawable/custom_button_small_watford" />
+
+
+        <Button
+            android:id="@+id/btnWolves"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_wolves"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnLeicester"
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:background="@drawable/custom_button_small_leicester"
+            android:stateListAnimator="@null"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"/>
+      </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectArsenal"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectMancity"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBournemouth"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="294dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectManunited"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="294dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBrighton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="456dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectNewcastle"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="456dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectBurnley"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="618dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectSouthampton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="618dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectChelsea"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="788dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectAstonvilla"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="788dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectCrystalpalace"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="952dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectNorwich"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="952dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectEverton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1117dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectSpurs"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1117dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectShefunited"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1285dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectWatford"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1285dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectWestham"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1451dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectWolves"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1451dp"
+        android:layout_marginLeft="263dp"/>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectLiverpool"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1618dp"
+        android:layout_marginLeft="105dp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgCorrectLeicester"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@mipmap/small_correct_tick"
+        android:layout_marginTop="1618dp"
+        android:layout_marginLeft="263dp"/>
+  </RelativeLayout>
+</ScrollView>

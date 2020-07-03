@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:noHistory="true"
+    tools:context="dont_have_domain.football_logo_quiz.settings_menu"
+    android:background="@drawable/grass_background_normal">
+
+  <Button
+      android:id="@+id/btnVibrations"
+      android:layout_width="256dp"
+      android:layout_height="72dp"
+      android:background="@drawable/custom_button_small_vibration_on"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="16dp" />
+
+  <Button
+      android:id="@+id/btnVibrationButtons"
+      android:layout_width="256dp"
+      android:layout_height="72dp"
+      android:background="@drawable/custom_button_small_button_vibration_on"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="100dp" />
+
+  <Button
+      android:id="@+id/btnCorrectSound"
+      android:layout_width="256dp"
+      android:layout_height="72dp"
+      android:background="@drawable/custom_button_small_correct_sound_off"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="184dp" />
+
+  <Button
+      android:id="@+id/btnButtonSound"
+      android:layout_width="256dp"
+      android:layout_height="72dp"
+      android:background="@drawable/custom_button_small_button_sound_off"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="268dp" />
+</RelativeLayout>
