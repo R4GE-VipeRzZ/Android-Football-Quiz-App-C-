@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:noHistory="true"
+    tools:context="dont_have_domain.football_logo_quiz.league_menu"
+    android:background="@drawable/grass_background_large">
+
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center_horizontal"
+      tools:context="dont_have_domain.football_logo_quiz.mancity_badge">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnEpl"
+          android:layout_width="match_parent"
+          android:layout_height="166dp"
+          android:background="@drawable/custom_button_large_epl"
+          android:layout_marginTop="15dp"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:stateListAnimator="@null"/>
+
+      <TextView
+          android:id="@+id/eplProgressCount"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="124dp"
+          android:layout_marginLeft="20dp"
+          android:text="0/20"
+          android:textSize="33sp"
+          android:textColor="#000000"
+          android:fontFamily="sans-serif-medium"
+          android:textStyle="bold"/>
+
+      <ProgressBar
+          android:id="@+id/eplProgressBar"
+          style="@android:style/Widget.ProgressBar.Horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_marginTop="86dp"
+          android:layout_marginLeft="22dp"
+          android:layout_marginRight="100dp"
+          android:progress="80"
+          android:progressDrawable="@drawable/progress_bar_colour"/>
+
+
+
+      <Button
+          android:id="@+id/btnEflChamp"
+          android:layout_width="match_parent"
+          android:layout_height="166dp"
+          android:background="@drawable/custom_button_large_championship"
+          android:layout_marginTop="200dp"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:stateListAnimator="@null"/>
+
+      <TextView
+          android:id="@+id/eflChampProgressCount"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="312dp"
+          android:layout_marginLeft="20dp"
+          android:text="0/24"
+          android:textSize="33sp"
+          android:textColor="#000000"
+          android:fontFamily="sans-serif-medium"
+          android:textStyle="bold"/>
+
+      <ProgressBar
+          android:id="@+id/eflChampProgressBar"
+          style="@android:style/Widget.ProgressBar.Horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_marginTop="269dp"
+          android:layout_marginLeft="22dp"
+          android:layout_marginRight="100dp"
+          android:progress="80"
+          android:progressDrawable="@drawable/progress_bar_colour"/>
+
+
+    </FrameLayout>
+  </RelativeLayout>
+</ScrollView>
